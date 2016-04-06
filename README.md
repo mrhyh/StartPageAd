@@ -1,4 +1,4 @@
-完全在[https://github.com/HaoRuizhi/WelecomePageAD]的基础上更改的！
+完全在 [https://github.com/HaoRuizhi/WelecomePageAD] 的基础上更改的！
 
 # 应用启动页广告显示，导航栏按钮动态变化
 #详见效果图
