@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  ADWelecomePage
+//
+//  Created by haorise on 15-12-3.
+//  Copyright (c) 2015年 rise's company. All rights reserved.
+//
+
+#ifndef ADWelecomePage_PrefixHeader_pch
+#define ADWelecomePage_PrefixHeader_pch
+
+
+#import "UIView+Frame.h"
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define SXSCREEN_W [UIScreen mainScreen].bounds.size.width
+#define SXSCREEN_H [UIScreen mainScreen].bounds.size.height
+#define SXCurrentLanguage ([[NSLocale preferredLanguages] objectAtIndex:0])
+#define SXCurrentSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define SXiPhone4_OR_4s    (SXSCREEN_H == 480)
+#define SXiPhone5_OR_5c_OR_5s   (SXSCREEN_H == 568)
+#define SXiPhone6_OR_6s   (SXSCREEN_H == 667)
+#define SXiPhone6Plus_OR_6sPlus   (SXSCREEN_H == 736)
+#define SXiPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
